@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+.allInfo {
+  width: 700px;
+  height: 500px;
+  /* border : 1px solid yellow; */
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+}
+.top {
+ flex: 1;
+ border: 1px solid red;
+}
+.middle{
+ border: 1px solid blue;
+ flex: 1;
+ display: flex;
+}
+.temper{
+  flex: 1;
+}
+.icon{
+  flex: 1;
+}
+.bottom{
+ border: 1px solid purple;
+ flex: 1;
+}
